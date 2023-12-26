@@ -24,8 +24,8 @@ const Nav = () => {
     <nav className="p-4 dark:bg-gray-800 dark:text-gray-100 h-screen-min">
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-3 lg:flex-grow lg:justify-end">
-          <Link href="">Products</Link>
-          <Link href="">Orders</Link>
+          <Link className="font-semibold text-indigo-950" href="/products">Products</Link>
+          <Link className="font-semibold text-indigo-950" href="/orders">Orders</Link>
           <Link href="/">
             <Button
               variant="ghost"
